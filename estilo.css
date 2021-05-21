@@ -1,0 +1,193 @@
+/*
+ * Retirando toma margen e espaço em "brancos" 
+ */
+body,html
+{
+	height: 100%;
+	margin: 0;
+	max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/*
+ *Ajustando imagem de fundo "background" 
+ */
+.fundo
+{
+	background-image: url("img/07.jpg");	/*Adiciona a imagem*/
+	background-repeat: no-repeat;										/*Evita que a imagem se repita*/
+	background-size: cover;												/*Cobre toda área da página*/
+	background-position: center;										/*Centraliza a imagem*/
+	background-attachment: fixed;										/*Evita que a imagem role junto com a página*/
+}
+
+.aprenderc
+{
+	background-color: rgba(3,169,246,0.1);	
+	margin-top: 0%;
+	margin-right: 80%;
+	margin-left: 0%;
+	border-radius: 0px;
+	padding-bottom: 49%;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+}
+
+
+.visualc
+{
+	font-size: 16px;
+	text-align: left;
+	margin-left: 10%;
+	margin-top: 5%; 
+	color: white;
+}
+
+.aprendercpp
+{
+	background-color: rgba(26, 35, 126, 0.1);	
+	margin-top: -87.2%;
+	margin-right: 60%;
+	margin-left: 20%;
+	border-radius: 0px;
+	padding-bottom: 52%;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+}
+
+.visualcpp
+{
+	font-size: 16px;
+	text-align: left;
+	margin-left: 10%;
+	margin-top: 5%; 
+	color: white;
+}
+
+.aprendergithub
+{	
+	background-color: rgba(0, 0, 0, 0.2);	
+	margin-top: -90.3%;
+	margin-right: 40%;
+	margin-left: 40%;
+	border-radius: 0px;
+	padding-bottom: 52%;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+}
+
+.visualgithub
+{
+	font-size: 16px;
+	text-align: left;
+	margin-left: 10%;
+	margin-top: 5%; 
+	color: white;
+}
+
+.espaco01
+{
+	margin-top: 150px;
+}
+
+.espaco02
+{
+	margin-top: 100px;
+}
+
+.espaco03
+{
+	margin-top: 295px;
+}
+
+.texto03
+{
+	margin-top: -1%;
+	margin-right: 28%;
+	margin-left: 1%;
+	border-radius: 0px;
+	padding-bottom: 0%;
+	padding-left: 10px;
+	padding-right: 50px;
+	line-height: 2.0;
+}
+
+.baseaprender
+{
+	margin-top:  -35px;
+	margin-right: -180%;
+
+}
+
+.baserequisitosgithub
+{
+	margin-top: 83px;
+	position: fixed;
+	margin-left: 90%;
+}
+
+.baserequisitoscpp
+{
+	margin-top: 68px;
+	margin-right: 4%;
+}
+
+.a
+{
+	background-color: rgba(120, 102, 102, 0.3)
+}
+
+.row
+{
+	width: 70%;
+	position: absolute;
+	top: 15%; left: 5%;
+	line-height: 1.0;
+	text-align: justify;
+}
+
+.card-action
+{
+	color: white;
+	font-size: 35px;
+	background-color: white;
+}
+
+.autor
+{
+	padding-top: 36%;
+	padding-right: 4%
+
+}
+
+.vertical-menu {
+  width: 200px;
+  height: 50px;
+}
+
+.vertical-menu a {
+  background-color: #0288d1 ; /* Grey background color */
+  color: white; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  margin-bottom: -17px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+
+}
+
+.vertical-menu a:hover {
+  background-color: #78909c; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #04AA6D; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+
+
+
+
